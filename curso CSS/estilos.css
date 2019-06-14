@@ -1,0 +1,75 @@
+body {
+    background: #b3eaee;
+    /*selectores indican a quien cambiamos el color*/
+}
+/*para cambiar el color a todas las h*/
+h2,h3,h4,h5,h6 {
+    color:lightcoral;
+}
+
+/*para cambiar el tamaño a cada h se hace por separdo*/
+h1{
+    font-size:30px;
+    color: purple;
+}
+h2{
+    font-size: 20px;
+}
+h4{
+    font-size: 10px;
+}
+p{
+    color: peru;
+}
+
+/*selectores descendentes: 
+apuntan a elementos dentro del cuerpo*/
+/*si hay elemento entre p y a css va a buscar */
+p a{
+    font-size: 20px;
+}
+
+/*selector de clases con punto al inicio
+identifica una clase*/
+.rojo{
+    color: rgb(255, 255, 255);
+}
+
+a [href="https://www.google.com.ar/"]{
+    color:lightgreen;
+}
+/*unidades de medida:medida en PIXELES
+RELATIVAS: PIXELES - EM - REM
+    -pixeles: no es tan flexible
+    -em:
+        1em= respresenta el tamaño del elemento padre..por defecto body viene con 16px...
+        si cambiamos el body,cambia la unidad em
+    -%:se suele usar en cajas
+ABSOLUTAS: que no se cambian para nada
+in:pulgadas
+cm:centimetro
+*/
+div{
+    background: #de9ee4;
+    color: #b9a42b;
+    width:50%;/*esto sirve expresar en porcentaje para trabajos responsive_ 
+    quiere decir q ocupa el 50% de la pantalla..se adapta a pantallas de 
+    telefonos moviles/smarts/etc
+    - tambien se pueden usar px o em */
+}
+
+/*unidades de color
+se ponen como:
+-hexadecimal #...
+-en formato decimal rgb(r,g,b)
+-en formato decimal rgb(%,%,%)
+-rgba(r,g,b,transparencia en decimal entre 0 y 1)*/
+
+/*MODELO DE CAJAS - fundamental en css
+
+Utilizo DIV y puedo decidir sobre sus margenes y bordes:
+MARGIN: espacio entre esta caja DIV y la caja anterior
+PADDING:  margen dentro de la caja
+WIDTH: espacio que ocupa el relleno de la caja DIV
+BORDER: se agrega o no borde a la caja
+*/

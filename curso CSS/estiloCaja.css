@@ -1,0 +1,29 @@
+/*MODELO DE CAJAS - fundamental en css
+
+Utilizo DIV y puedo decidir sobre sus margenes y bordes:
+MARGIN: espacio entre esta caja DIV y la caja anterior
+PADDING:  margen dentro de la caja
+WIDTH: espacio que ocupa el relleno de la caja DIV
+BORDER: se agrega o no borde a la caja
+*/
+/*
+h1, a , div, p{
+    background: orange
+}*/
+
+/*los elementos de las paginas web son rectagulos
+ELEMENTO BLOQUE
+ELEMENTO LINEA: no le podemos dar ancho ni alto - si margin y border*/
+
+div{
+    background: orange;
+    width: 300px;
+    /*height: 300px;*/
+    margin:40px 5px;
+    padding: 30px;/*si tenemos un valor de width que respetar y si tiene PADDING,
+     la medida real seria: width = width - (padding x 2)- border ... y asi hasta conseguir
+     los px*/
+    border: 3px solid rgb(0, 0, 0);/*DOOTED agrega una linea punteada en vez de SOLID*/
+    /*display: inline-block; -- elementos en la misma linea*/
+
+}

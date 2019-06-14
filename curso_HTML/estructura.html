@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura</title>
+    <link rel="stylesheet" href="D:\Clarisa\Desktop\CURSOS\curso CSS/estilos.css">
+    
+</head>
+<body>
+    <!--con DIV separaba los parrafos/textos y si agregamos:
+    <div id="header"></div> nos permite identificar despues con CSS y darle color -->
+
+    <!--hoy en dia solo se usa div para separar o agregar una imagen-->
+
+    <header>
+        <!-- donde va nuestro logotipo y menu-->
+        <div>
+            <img src="D:\Clarisa\Desktop\CURSOS\imagenes_web/Logo_TV_2015.png" width="100" alt="logotipo">
+        </div>
+        <br/>
+        <nav>
+            <!--con NAV indicamos que hay un panel de navegacion y se realizan con listas
+            HREF pagina o imagen para linkear, en caso de poner # es en la misma pagina-->
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Categoria</a></li>
+                <li><a href="#">Categoria 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <!--section para cualquier seccion de la pagina
+             wrapper es un contenedor-->
+        <section class="main">
+            <article>
+                <!--ARTICLE  tiene contenido importante para el lector-->
+                <h2>Mochila</h2>
+                <p>Una mochila o morral es un recipiente para llevar el equipaje, 
+                    por lo general sujeto a la espalda por medio de correas o 
+                    bandas que pasan por los hombros y se atan a la cintura.​ 
+                    Su uso ha generado el término mochilero en plan mochilero
+                </p>
+            </article>
+            <article>
+                    <h2>Mochila</h2>
+                    <p>Una mochila o morral es un recipiente para llevar el equipaje, 
+                        por lo general sujeto a la espalda por medio de correas o 
+                        bandas que pasan por los hombros y se atan a la cintura.​ 
+                        Su uso ha generado el término mochilero en plan mochilero
+                    </p>
+                </article>
+        </section>
+        <aside>
+            <!--contenido secundario - columna que contiene texto adicional al costado o 
+                publicidad-->
+            <h3>Sidebar</h3>
+            <p>Una mochila o morral</p>
+        </aside>
+    </section>
+    <footer>
+        <!--FOOTER  es el pie de pagina-->
+        <p>Silvana Rodriguez</p>
+    </footer>
+</body>
+</html>

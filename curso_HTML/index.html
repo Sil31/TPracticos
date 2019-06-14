@@ -1,0 +1,149 @@
+<!--METADATOS: DAN INFORMACION AL NAVEGADOR SE ESCRIBEN DENTRO DE HEAD-->
+
+<html>
+    <head>
+        <title>Primera web</title>
+        <!-- <link rel="stylesheet" href="estilos.css"> -->
+        <!--icono de la pagina-->
+        <link rel="short icon" type="image/x-icon" href="D:\Clarisa\Desktop\SINTyS_sil\Silvana_UTN\proyectos_web\sitios_pruebas\images/fondo2.ico">
+        <meta name="description" content="pagina de mochila">
+        <!--content debe tener entre 100 y 150 caracteres
+        a veces se ponian como etiquetas para los buscadores y poder encontrar mas rapido la pagian-->
+        <meta name="keywords" content="diseño, desarrollo,"/>
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <!--para agregar un archivo de java script <script></script> -->
+    </head>
+    <body>
+        <!-- titulos y fuentes -->
+        <!-- <script src="archivo.js"></script> -->
+
+        <h1>Titulo</h1>
+        <p>El <b>párrafo</b> es la exposición coherente y por escrito de una <strong>idea</strong> completa. 
+            Es unidad de pensamiento y sentimiento, forma la <i>unidad de expresión</i> en el lenguaje escrito.<br/> 
+            Dicha unidad está integrada por dos elementos: el enunciado principal y los enunciados secundarios,
+            los cuales complementan al principal.
+        </p>
+        <img src="D:\Clarisa\Desktop\CURSOS\imagenes_web/escriorio.jpg" alt="ESCRITORIO"
+                title="Escritorio" /> <!--alt: define a la imagen cuando el archivo no se encuentra-->
+        <br/><br/>
+        <!-- con width="100" height="100" asigno YO MISMO el tamaño a la imagen -->
+        <img src="D:\Clarisa\Desktop\SINTyS_sil\Silvana_UTN\proyectos_web\sitios_pruebas\images/escritorio.jpg" 
+        alt="ESCRITORIO" title="Escritorio modelo" width="270" height="270"/>
+        <br/><br/>
+        <a target="_blank" href="https://www.google.com.ar/">Ir a Google</a>
+        <br/><!--inserta salto o enter -->
+        <a href="D:\Clarisa\Desktop\SINTyS_sil\Silvana_UTN\proyectos_web\sitios_pruebas\images/fondo1.jpg">Ir a la imagen</a>
+
+        <hr/><!--inserta linea debajo del parrafo-->
+
+        <ul>LISTA DESORDENADA
+            <br/><br/>
+            <li><a href="#">Elemento #1</a></li> <!--elemento de la lista con enlace a algun lugar-->
+            <li>Elemento #2</li>
+            <li>Elemento #3</li>
+                <ul>
+                    <li>Subelemento#1</li>
+                    <li>Subelemento#2</li>
+                </ul>
+            <li>Elemento #4</li>
+            <li>Elemento #5</li>
+        </ul>
+        <hr/><!--inserta linea debajo del parrafo-->
+
+        <ol>LISTA ORDENADA
+            <br/><br/>
+            <li><a href="#">Elemento #1</a></li> <!--elemento de la lista con enlace a algun lugar-->
+            <li>Elemento #2</li>
+            <li>Elemento #3</li>
+                <ul>
+                    <li>Subelemento#1</li>
+                    <li>Subelemento#2</li>
+                </ul>
+            <li>Elemento #4</li>
+            <li>Elemento #5</li>
+        </ol>
+        <hr/>
+        <h2>Subtitulo</h2>
+        <p>El <b>párrafo</b> es la exposición coherente y por escrito de una <strong>idea</strong> completa. 
+            Es unidad de pensamiento y sentimiento, forma la <i>unidad de expresión</i> en el lenguaje escrito.<br/> 
+            Dicha unidad está integrada por dos elementos: el enunciado principal y los enunciados secundarios,
+            los cuales complementan al principal.
+        </p>
+        <a href="mailito:rodriguezsil31@hotmail.com" title="Enviar correo a Silvana">Enviar mail</a>
+
+        <hr/>
+        <!--tablas para mostrar datos, no para estructurar la pagina-->
+        <table>
+        <!--con table se crea la tabla-->
+            <tr>
+            <!--con tr se crea la fila-->
+                <td>Elemento #1</td>
+                <!--con d se crea el elemento-->
+                <td>Elemento #1</td>
+                <td>Elemento #1</td>
+                <td>Elemento #1</td>
+            </tr>
+            <tr>
+                <td>Elemento #2</td>
+                <td>Elemento #2</td>
+                <td>Elemento #2</td>
+                <td>Elemento #2</td>
+            </tr>
+            <tr>
+                <td>Elemento #3</td>
+                <td>Elemento #3</td>
+                <td>Elemento #3</td>
+                <td>Elemento #3</td>
+            </tr>
+        </table>
+        <hr/>
+        <form>
+            <input type="text" placeholder="Escribe tu nombre">
+            <!--type="password"...ingresar un password, esto me muestra los caracteres como puntos-->
+            <input type="password">
+        </form>
+        <!--placeholder: PERMITE DEJAR TRANSPARENTE EL TEXTO DE LA CAJA DEL FORMULARIO
+            VALUE: permite ingresar texto en la caja del formulario pero hay que borrarlo para poder escribir sobre el
+            maxlength: INDICA LA CANTIDAD DE CARACTERES PERMITIDO
+            ID: identifica a la caja de texto-->
+        <form>
+            Ingrese aqui su nombre:
+            <input type="text" placeholder="Escribir aqui">
+            <br/>
+            <!--el check con esta opcion es un cuadrado-->
+            <input type="checkbox" name="" id="">HOMBRE
+            <input type="checkbox" name="" id="">MUJER
+            <br/>
+            <!--el check con esta opcion es un circulo-->
+            <input type="radio" name="" id="">HOMBRE
+            <input type="radio" name="" id="">MUJER
+            <br/>
+            <!--botones-->
+            <input type="submit" value="Enviar submit">
+            <input type="button" value="Enviar">
+            <br/>
+            <!--lista de seleccion desplegable con SELECT-->
+            <select>
+                <option value="Mexico">Mexico</option>
+                <option value="Arg">Arg</option>
+            </select>
+            <br/>
+            <!--seleccion desplegable de color con INPUT:COLOR-->
+            <input type="color" name="" id="">
+            <br/>
+            <!--seleccion desplegable de rango con INPUT:range-->
+            min<input type="range" name="" id="">max
+        </form>
+
+        <!--otra forma para que al hacer click en el texto nos dirija a la caja de texto-->
+        <form>
+            <!--FOR  me indica a que caja hace referencia mencionando el id del INPUT-->
+            <label for="nombre">Ingrese aquí su nombre</label>
+            <input type="text" placeholder="Escriba aquí" id="nombre">
+            <input type="email" name="mail" id="mail">
+        </form>
+        <hr/>
+        <!--layout/Estructura de contnido-->
+
+    </body>
+</html> 

@@ -1,0 +1,10 @@
+body {
+    background: rgba(60, 154, 170, 0.247);
+    color: rgb(161, 29, 106);
+}
+/*
+body hace referencia al cuerpo de la pagina html
+background:# define el color de fondo
+color:# indica el color de la fuente del texto en la pagina html */
+
+
